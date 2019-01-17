@@ -30,7 +30,7 @@ namespace Banking.Tests
         [Fact]
         public void Withdraw_Reduces_Balance()
         {
-            CheckingAccount account = new CheckingAccount();
+            CheckingAccount account = new CheckingAccount();           
             account.Deposit(100M);
 
             account.Withdraw(50M);
